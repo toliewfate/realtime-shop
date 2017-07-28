@@ -1,0 +1,36 @@
+<!--<nav>
+    <div class="nav-wrapper">
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+<ul id="slide-out" class="side-nav">
+    <li><a class="subheader">Menu</a></li>
+    <li><a class="waves-effect" ng-href="{{link.profile}}">Profile</a></li>
+    <li><a class="waves-effect" ng-href="{{link.select}}">Select</a></li>
+    <li><a class="waves-effect" ng-href="{{link.list}}">List</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" ng-click="logout()">Logout</a></li>
+</ul>-->
+<nav class="header">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Doreamon</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="waves-effect" ng-href="{{link.profile}}">Profile</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a class="waves-effect" ng-href="{{link.profile}}">Profile</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="waves-effect" ng-click="logout()">Logout</a></li>
+      </ul>
+    </div>
+</nav>
+<script type="text/javascript">
+    $('.button-collapse').sideNav({
+        menuWidth: 300, // Default is 300
+        edge: 'left', // Choose the horizontal origin
+        closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        draggable: true // Choose whether you can drag to open on touch screens
+        }
+    );
+</script>

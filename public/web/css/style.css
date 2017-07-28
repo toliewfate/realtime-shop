@@ -1,0 +1,75 @@
+.full-width { 
+    width: 100%;
+}
+
+#preloading {
+    display: none;
+    z-index: 300;
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+.show-loader {
+  display: block !important;
+}
+.children{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -15px;
+}
+
+.chatbox {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 99;
+    background: #fafafa;
+    border: none;
+    outline: none;
+    padding-left: 55px;
+    padding-right: 55px;
+    font-weight: 400;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 998;
+    border: none;
+    outline: none;
+    font-weight: 400;
+}
+
+.down {
+    position: relative;
+    top: 5px;
+    /*/right: 17px;*/
+}
+
+.gps {
+    position: relative;
+    top: 5px;
+}
+
+.chat {
+    list-style: none;
+    background: none;
+    margin: 0;
+    padding: 0 0 50px 0;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.mar-top{
+    margin-top: 65px;
+}

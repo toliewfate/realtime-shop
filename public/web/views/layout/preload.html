@@ -1,0 +1,32 @@
+<style type="text/css">
+#preloading {
+    display: none;
+    z-index: 300;
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%;height: 100%;
+}
+.show-loader {
+  display: block !important;
+}
+.children{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+</style>
+<div id="preloading" class="">
+  <div class="preloader-wrapper big active children">
+    <div class="spinner-layer spinner-white-only ">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+</div>

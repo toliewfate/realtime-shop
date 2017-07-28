@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!--CSS-->
+  <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./components/materialize/css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="./web/css/style.css"/>
+  <link type="text/css" rel="stylesheet" href="./web/css/heartbeat.css"/>
+  <meta charset="UTF-8" />
+  <title>Realtime-shop</title>
+</head>
+
+<body ng-app="app" style="background-color: rgb(255, 255 ,255)">
+  <div ng-view></div>
+  <!--jquery-->
+  <script src="./components/jquery/dist/jquery.min.js"></script>
+
+  <!--angular-->
+  <script src="./components/angular/angular.min.js"></script>
+  <script src="./components/angular-route/angular-route.min.js"></script>
+
+  <!--firebase-->
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+  <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+
+  <!--JS-->
+  <script type="text/javascript" src="./components/materialize/js/materialize.min.js"></script>
+
+  <!--APP-->
+  <script src="./web/app.js"></script>
+
+  <!--controllers-->
+  <script src="./web/controllers/accountController.js"></script>
+
+  <!--service-->
+  <script src="./web/services/service.js"></script>
+
+  <!--factory-->
+  <script src="./web/factory/factory.js"></script>
+
+  <!--diractive-->
+  <script src="./web/directives/header.js"></script>
+</body>
+
+</html>
+
